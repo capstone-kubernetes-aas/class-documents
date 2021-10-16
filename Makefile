@@ -1,12 +1,15 @@
-PANDOC_OPTS = -V geometry:margin=1in --highlight=tango --citeproc
+PANDOC_OPTS = --metadata-file metadata.yml -V geometry:margin=1in --highlight=tango --citeproc
+MAKEFLAGS += -j10
 
-# .PHONY: all $(MAKECMDGOALS)
+all: each combined
 
-all: $(wildcard *.md)
-	pandoc $(wildcard *.md) -o group_project.pdf $(PANDOC_OPTS)
+each: $(patsubst %.md,%.pdf,$(wildcard *.md))
+
+combined: $(wildcard *.md)
+	pandoc $(wildcard *.md) -o kubernetes_capstone.pdf $(PANDOC_OPTS)
 
 %.pdf: %.md
 	pandoc $(@:.pdf=.md) -o $@ $(PANDOC_OPTS)
 
 clean:
-	rm $(wildcard *.pdf)
+	rm -f $(wildcard *.pdf)
