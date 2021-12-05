@@ -1,11 +1,19 @@
 ---
-# title: Fun With Kubernetes
-# author:
-#   - Jacob Balin
-#   - Robert Detjens
-#   - Nathan Hausman
-#   - Paul Lim
-#   - Mark Ser
+title: Fun With Kubernetes
+author:
+  - Jacob Balin
+  - Robert Detjens
+  - Nathan Hausman
+  - Paul Lim
+  - Mark Ser
+date: 8 December 2021
+
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhead[L]{\textit{VISION \& SCOPE DOCUMENT}}
 
 numbersections: true
+toc: true
+toc-depth: 2
 ---

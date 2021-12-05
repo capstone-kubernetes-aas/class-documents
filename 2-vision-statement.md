@@ -1,12 +1,11 @@
 # Vision Statement
 
-When our project is complete, a user will be able to quickly customize our pipeline to their needs with a single
+When our project is complete, a user will be able to quickly customize our pipeline to suit their workflow with a single
 configuration file. The setup will be just as simple as if they were to use another service. The user experience will be
 intuitive and easy to use and the system will be easily scalable.
 
 The adoption of the project should decrease the operating costs to host simple microservices. It should also decrease
 reliance on current industry solutions and allow for more options in hosting.
-
 
 ## Central hypotheses
 
@@ -25,20 +24,22 @@ reliance on current industry solutions and allow for more options in hosting.
 
 ## High-level requirements
 
+- The deployment pipeline must provide connectivity between container system and internet
+
 ### Functional requirements
 
-- The deployment pipeline must run on a cluster of Raspberry Pi’s.
-- The deployment pipeline interface must be accessible by the local network.
+- The deployment pipeline must run on a cluster of Raspberry Pis
+- The deployment pipeline interface must be accessible by the local network
 - The deployment pipeline must be able to deploy a user’s service to the Kubernetes cluster from a user-provided
-  configuration file.
-- The deployment pipeline must provide a way to connect the Kubernetes pods and their services to the Internet.
-
+  configuration file
+- The deployment pipeline must provide a way to connect the Kubernetes pods and their services to the Internet
 
 ### Non-functional requirements
 
-- The user must be able to view a dashboard of their service after the deployment through an user interface.
-- The user experience must be intuitive and easy to use.
-- The deployment pipeline should use Kubernetes operators to automate certain tasks.
-- The deployment pipeline should provide easy software scalability through Kubernetes.
+- The user must be able to view a dashboard of their service after the deployment through an user interface
+- Non-technical users must be able to deploy their application with assistance from the documentation
+- The deployment pipeline should use Kubernetes operators to automate certain tasks
+- The deployment pipeline should provide scalability through adding or removing the use of more Raspberry Pis through
+  the user interface
 
 \pagebreak

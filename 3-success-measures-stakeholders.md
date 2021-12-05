@@ -1,4 +1,4 @@
-# Success Measures and Stakeholders
+# Success Measures & Stakeholders
 
 ## Success Measures
 
@@ -8,7 +8,8 @@
 - Research about Raspberry Pi
 - Configure remote access to the Raspberry Pi
 
-By the end of this success measure, team members are more familiar with the technology that we will be using in this project.
+By the end of this success measure, team members are more familiar with the technology that we will be using in this
+project.
 
 ### Set up Kubernetes
 
@@ -21,7 +22,8 @@ By the end of this success measure, we should be able to deploy Kubernetes pods 
 
 - Install custom solutions for better management of clusters and viewing cluster status
 
-By the end of this success measure, team members will be able to manage the cluster from the management portal instead of through the CLI.
+By the end of this success measure, team members will be able to manage the cluster from the management portal instead
+of through a CLI.
 
 ### Develop a pipeline (part 1)
 
@@ -47,22 +49,22 @@ By the end of this success measure, public users should be able to access and ma
 
 ## Project Stakeholders
 
-### Project partner
+### Project Partner
 
 - Primary investor in this project.
 - Provider of direction and basic structure of the project.
 - Provider of the resources necessary to complete the project.
 
-### The team
+### The Team
 
 - Develop the deployment pipeline software
 - Responsible for keeping the cluster operational and working
 
-### The clients
+### The Clients
 
 - Use the cluster and management pipeline to host their application.
 
-### The users
+### The Users
 
 - Use client-deployed software on the cluster
 
