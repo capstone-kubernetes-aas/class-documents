@@ -1,4 +1,4 @@
-PANDOC_OPTS = --metadata-file metadata.yml -V geometry:margin=1in --highlight=tango --citeproc -F pantable
+PANDOC_OPTS = --metadata-file metadata.yml -V geometry:margin=1in --highlight=tango -F pantable
 MAKEFLAGS += -j10
 
 all: each combined
