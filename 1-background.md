@@ -11,7 +11,6 @@ access their deployment through a website portal outside of the local network. T
 startups, researchers, and other groups of individuals that are looking to reduce their operating costs and reliance on
 cloud giants.
 
-
 ## Existing Systems and Conditions
 
 Currently, the primary solutions are cloud-based services such as AWS, Microsoft Azure, or Google Cloud. While useful in
@@ -45,7 +44,6 @@ container. <https://www.docker.com/>
 *Raspberry Pi*
 : A low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and
   mouse. <https://www.raspberrypi.org/>
-
 
 ## People Involved
 

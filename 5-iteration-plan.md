@@ -68,3 +68,5 @@ a. Utilize multiple test web application for beta testing **(7-14 days)**
       web application project to our service.
 
 ![Gantt Chart](images/gantt-chart.png)
+
+\pagebreak
