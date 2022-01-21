@@ -1,7 +1,7 @@
 PANDOC_OPTS = --metadata-file metadata.yml -V geometry:margin=1in --highlight=tango -F pantable
 MAKEFLAGS += -j10
 
-all: each combined
+all: combined
 
 each: $(patsubst %.md,%.pdf,$(wildcard *.md))
 

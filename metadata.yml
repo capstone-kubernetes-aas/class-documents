@@ -8,12 +8,12 @@ author:
   - Mark Ser
 date: 8 December 2021
 
-header-includes: |
-  \usepackage{pdfpages}
-  \usepackage{fancyhdr}
-  \pagestyle{fancy}
-  \fancyhead[L]{\textsl{VISION \& SCOPE DOCUMENT}}
-  \fancyhead[R]{\textsl{\leftmark}}
+header-includes:
+  - \usepackage{pdfpages}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[L]{\textsl{VISION \& SCOPE DOCUMENT}}
+  - \fancyhead[R]{\textsl{\leftmark}}
 
 numbersections: true
 toc: true

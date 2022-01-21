@@ -31,7 +31,7 @@ similar solution with a local Raspberry Pi cluster instead of servers.
 
 *Docker*
 : A containerization platform that packages software in a lightweight, isolated, and portable environment called a
-container. <https://www.docker.com/>
+  container. <https://www.docker.com/>
 
 *Kubernetes*
 : An open-source container-orchestration system for automating computer application development, scaling, and
