@@ -1,5 +1,10 @@
 # Success Measures & Stakeholders
 
+\begin{minipage}{\linewidth}
+  \color{Bittersweet}
+  Changes from Winter Term 2022: No changes have been made to this section.
+\end{minipage}
+
 ## Success Measures
 
 ### Initial project research

@@ -1,5 +1,10 @@
 # Project Constraints & Risk
 
+\begin{minipage}{\linewidth}
+  \color{Bittersweet}
+  Changes from Winter Term 2022: No changes have been made to this section.
+\end{minipage}
+
 ## Prioritized Project Constraints
 
 ### Constraint 1: Time

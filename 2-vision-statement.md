@@ -1,5 +1,10 @@
 # Vision Statement
 
+\begin{minipage}{\linewidth}
+  \color{Bittersweet}
+  Changes from Winter Term 2022: No changes have been made to this section.
+\end{minipage}
+
 When our project is complete, a user will be able to quickly customize our pipeline to suit their workflow with a single
 configuration file. The setup will be just as simple as if they were to use another service. The user experience will be
 intuitive and easy to use and the system will be easily scalable.

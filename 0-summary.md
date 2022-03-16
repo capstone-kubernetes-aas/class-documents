@@ -2,6 +2,11 @@
 
 # Executive Summary
 
+\begin{minipage}{\linewidth}
+  \color{Bittersweet}
+  Changes from Winter Term 2022: No changes have been made to this section.
+\end{minipage}
+
 ## Overall Goal
 
 The goal of the project is to create a deployment pipeline for containerized applications on Raspberry Pi devices. With

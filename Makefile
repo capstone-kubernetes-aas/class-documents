@@ -6,7 +6,7 @@ all: combined
 each: $(patsubst %.md,%.pdf,$(wildcard *.md))
 
 combined: $(wildcard *.md)
-	pandoc $(wildcard *.md) -o kubernetes-vision-and-scope.pdf $(PANDOC_OPTS)
+	pandoc $(wildcard *.md) -o CS81-kubernetes-vision-and-scope-w22.pdf $(PANDOC_OPTS)
 
 %.pdf: %.md
 	pandoc $(@:.pdf=.md) -o $@ $(PANDOC_OPTS)

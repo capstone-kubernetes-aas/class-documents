@@ -1,5 +1,10 @@
 # Background
 
+\begin{minipage}{\linewidth}
+  \color{Bittersweet}
+  Changes from Winter Term 2022: No changes have been made to this section.
+\end{minipage}
+
 ## Problem Statement
 
 The objective of this capstone project is to build a workflow pipeline that can take a user-specified config file and
