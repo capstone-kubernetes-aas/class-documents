@@ -1,72 +1,126 @@
+---
+header-includes:
+  -
+toc: false
+---
+
+
 # Kubernetes On The Edge
 
-This project utilizes Kubernetes, Docker, and a Raspberry Pi. 
+This project utilizes Kubernetes, Docker, and a Raspberry Pi.
 
-## 1. Abstract and principal members: 
+# Abstract and Principal Members
 
-This project will containerize your code with Docker and deploy it with Kuberenetes with the deployment pipeline that we have created to run on a Raspberry Pi. 
-- Robert Detjens, worked on deployment pipeline.
-- Jacob Balin, worked on the kubernetes templates.
-- Nathan Hausman, worked on the deployment UI website that connected the website with the deployment pipeline.
-- Mark Ser, worked on setting up the Raspberry Pi and getting the Kubernetes dashboard working. 
-- Paul Lim, also worked on a portion of the deployment pipeline.
-- Kyle Prouty (Project Partner), helped scope the project, provided the equipment, and more. 
+This project will containerize your code with Docker and deploy it with Kubernetes with the deployment pipeline that we have created to run on a Raspberry Pi.
 
-## 2. Revised Code Freeze Materials
+| Team Member                     | Responsibility                                                     |
+|---------------------------------|--------------------------------------------------------------------|
+| Robert Detjens                  | Worked on the deployment pipeline                                  |
+| Jacob Balin                     | Worked on Kubernetes templates                                     |
+| Nathan Hausman                  | Worked on the deployment website and integration with the pipeline |
+| Mark Ser                        | Worked on setting up Kubernetes and the K8s dashboard              |
+| Paul Lim                        | Also worked on a portion of the deployment pipeline                |
+| Kyle Prouty *(Project Partner)* | Helped scope the project, provided the equipment, and more!        |
 
-Included in the Box Drive
+# Revised Code Freeze Materials
 
-## 3. Scope and Vision Paper:
+Folder `Code Freeze/` in the Box Drive
 
-Filename: `CS81-kubernetes-vision-and-scope.pdf`
+# Scope and Vision Paper
 
-## 4. PDF copy of the Expo Poster:
+File `CS81-kubernetes-vision-and-scope.pdf` in Box archive
 
-Filename: `2022.ExpoPoster.Your CS.081.pptx.pdf`
+# PDF copy of the Expo Poster
 
-## 5. Link to Final Demo Video:
+File `2022.ExpoPoster.CS.081.pdf` in Box archive
 
-https://media.oregonstate.edu/media/t/1_ja1qez2e
+# Link to Final Demo Video
 
-## 6. List of Recommended Technical Resources for Learning More
+File `CS081_DemoVideo.mp4` in Box archive, or at <https://media.oregonstate.edu/media/t/1_ja1qez2e>
 
-- https://www.docker.com/
-- https://kubernetes.io/
-- https://docs.github.com/en/rest
-- https://www.raspberrypi.com/documentation/
+# List of Recommended Technical Resources
 
-## 7: Conclusions and Reflections (each team member answers all questions individually)
+- <https://gitpython.readthedocs.io/en/stable/reference.html>
+- <https://github.com/kubernetes-client/python>
+- <https://devdocs.io>
+
+# Conclusions and Reflections
+
+## Robert Detjens
 
 - What technical information did you learn?
-    - A lot about Kubernetes and how to deploy a kubeneretes dashboard outside of the cluster's IP (Mark).
-    - I learned a lot about Kubernetes. Specifically how to properly configure the deployment and service aspects of Kubernetes (Jacob). 
+  - Interacting with the Docker and Kubernetes API in Python, the perils of setting up internet-facing services when behind two NATs
 - What non-technical information did you learn?
-    - How to write a scope paper (Mark).
-    - I learned how to project manage and coordinate with a team of developers, as well as some of the technical writing and presentation skills that are required for a project such as this one (Jacob).
+  - There's quite a bit that goes in to planning out a large project like this, and all the documentation and iteration from the Vision And Scope doc
 - What have you learned about project work?
-    - Start working on it ealier in the week so that people have time throughout the week to do code reviews (Mark).
-    - Having a solid and realistic plan of action is important before starting to work on a project. It is useful to have direction and clear goals while working on a project such as this (Jacob).
+  - When something is scheduled to get done by a certain time, it really does need to get done by that time. Parts of the project all depend on other parts of the project, and bugs may not be discovered until all the pieces can be put together. We almost got bit by this!
 - What have you learned about project management?
-    - It requires alot of work up front to have it easier later on (Mark).
-    - Coordinating between a team even as small as ours has its challenges. It is important to have a project management tool (we used Trello) to keep track of one's tasks and responsibilities (Jacob).
+  - One person needs to be constantly looking ahead and keeping the team aware of what needs to be done next.
 - What have you learned about working in teams?
-    - Have good project management with the team or have one person be good at it (Mark).
-    - It is important to have frequent communication with your team and to hold each other accountable for deliverables and deadlines. It is also important that each member of the team keeps on top of their responsibilities with the project management tool or project manager (Jacob).
+  - A great team makes a huge difference, and I am glad that this capstone team worked well together. I heard some horror stories from other teams, and give kudos to the rest of us for all contributing together
 - If you could do it all over, what would you do differently?
-    - Start coding earlier (Mark)!
-    - I would have more team and project partener meetings. I would get to know my team a lot sooner than I did and become comfortable with them earlier on than I did (Jacob).
+  - The project was pretty slow to start, and I think breaking up the work a little differently would have allowed us to all get started sooner instead of all waiting on something to get going.
 
-## 8: Future Direction
+## Mark Ser
+
+- What technical information did you learn?
+  - A lot about Kubernetes and how to deploy a Kubernetes dashboard outside of the cluster's IP.
+- What non-technical information did you learn?
+  - How to write a scope paper.
+- What have you learned about project work?
+  - Start working on it earlier in the week so that people have time throughout the week to do code reviews.
+- What have you learned about project management?
+  - It requires a lot of work up front to have it easier later on.
+- What have you learned about working in teams?
+  - Have good project management with the team or have one person be good at it.
+- If you could do it all over, what would you do differently?
+  - Start coding earlier!
+
+## Jacob Balin
+
+- What technical information did you learn?
+  - I learned a lot about Kubernetes. Specifically how to properly configure the deployment and service aspects of Kubernetes.
+- What non-technical information did you learn?
+  - I learned how to project manage and coordinate with a team of developers, as well as some of the technical writing and presentation skills that are required for a project such as this one.
+- What have you learned about project work?
+  - Having a solid and realistic plan of action is important before starting to work on a project. It is useful to have direction and clear goals while working on a project such as this.
+- What have you learned about project management?
+  - Coordinating between a team even as small as ours has its challenges. It is important to have a project management tool (we used Trello) to keep track of one's tasks and responsibilities.
+- What have you learned about working in teams?
+  - It is important to have frequent communication with your team and to hold each other accountable for deliverables and deadlines. It is also important that each member of the team keeps on top of their responsibilities with the project management tool or project manager.
+- If you could do it all over, what would you do differently?
+  - I would have more team and project partner meetings. I would get to know my team a lot sooner than I did and become comfortable with them earlier on than I did.
+
+## Nathan Hausman
+
+- What technical information did you learn?
+- What non-technical information did you learn?
+- What have you learned about project work?
+- What have you learned about project management?
+- What have you learned about working in teams?
+- If you could do it all over, what would you do differently?
+
+## Paul Lim
+
+
+- What technical information did you learn?
+- What non-technical information did you learn?
+- What have you learned about project work?
+- What have you learned about project management?
+- What have you learned about working in teams?
+- If you could do it all over, what would you do differently?
+
+# Future Direction
 
 - User login for the deployment website
 - Automatic token injection for the dashboard website
 - AI task workflow kickoff
 - Exposing multiple ports via ingress controllers
 
-## Contributors
+# Contributors
 
 2021 - 2022 -> Jacob Balin, Mark Ser, Paul Lim, Robert Detjens, Nathan Hausman.
 
-## License
+# License
 
 [MIT](https://choosealicense.com/licenses/mit/)

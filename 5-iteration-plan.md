@@ -2,7 +2,8 @@
 
 \begin{minipage}{\linewidth}
   \color{Bittersweet}
-  Changes from Winter Term 2022: No changes have been made to this section.
+  Changes from Winter Term 2022: No changes have been made to this section. \\
+  Changes from Spring Term 2022: No changes have been made to this section.
 \end{minipage}
 
 ## Kubernetes Setup (Sprint 2 - 3)
