@@ -94,11 +94,17 @@ File `CS081_DemoVideo.mp4` in Box archive, or at <https://media.oregonstate.edu/
 ## Nathan Hausman
 
 - What technical information did you learn?
+  - I learned the basics of React and more about Docker and the basics of Kubernetes.
 - What non-technical information did you learn?
+  - This was my first time working in a large team for any sort of big project, so I definitely learned more about coordination.
 - What have you learned about project work?
+  - Make sure you start with a realistic time table with extra time built in that can be distibuted as needed. Assume that anything that can go wrong will.
 - What have you learned about project management?
+  - Ensure that there is a central management tool and that it is being used effectively and consistantly.
 - What have you learned about working in teams?
+  - Communicate, communicate, communicate. It is essential that everyone is on the same page and has the same understanding of project goals and implementation.
 - If you could do it all over, what would you do differently?
+  - I would redistribute the workload a bit to make it more even and have everyone one familiar with other parts of the projects. Perhaps having meeting where we presented our code.
 
 ## Paul Lim
 
