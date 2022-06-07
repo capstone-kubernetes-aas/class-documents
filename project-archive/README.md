@@ -104,11 +104,17 @@ File `CS081_DemoVideo.mp4` in Box archive, or at <https://media.oregonstate.edu/
 
 
 - What technical information did you learn?
+  - I learned about Docker, Kubernetes, and how they interact across a pipeline.
 - What non-technical information did you learn?
+  - I learned how to coordinate with a larger team of developers, and improved my communication to non-technical audience.
 - What have you learned about project work?
+  - I learned the importance of documentation, especially with code since it is often convoluted and difficult to understand for others.
 - What have you learned about project management?
+  - I learned that it is important to divide larger tasks into smaller ones in order to track progress.
 - What have you learned about working in teams?
+  - -I learned that keeping everyone focused on long term goals is important, especially since we can easily get sidetracked with smaller tasks.
 - If you could do it all over, what would you do differently?
+  - I would try and put work in smaller chunks, as I often did a lot of work sporadically.
 
 # Future Direction
 
