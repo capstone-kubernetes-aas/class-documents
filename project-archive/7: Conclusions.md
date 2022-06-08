@@ -2,47 +2,8 @@
 header-includes:
   -
 toc: false
+numbersections: false
 ---
-
-
-# Kubernetes On The Edge
-
-This project utilizes Kubernetes, Docker, and a Raspberry Pi.
-
-# Abstract and Principal Members
-
-This project will containerize your code with Docker and deploy it with Kubernetes with the deployment pipeline that we have created to run on a Raspberry Pi.
-
-| Team Member                     | Responsibility                                                     |
-|---------------------------------|--------------------------------------------------------------------|
-| Robert Detjens                  | Worked on the deployment pipeline                                  |
-| Jacob Balin                     | Worked on Kubernetes templates                                     |
-| Nathan Hausman                  | Worked on the deployment website and integration with the pipeline |
-| Mark Ser                        | Worked on setting up Kubernetes and the K8s dashboard              |
-| Paul Lim                        | Also worked on a portion of the deployment pipeline                |
-| Kyle Prouty *(Project Partner)* | Helped scope the project, provided the equipment, and more!        |
-
-# Revised Code Freeze Materials
-
-Folder `Code Freeze/` in the Box Drive
-
-# Scope and Vision Paper
-
-File `CS81-kubernetes-vision-and-scope.pdf` in Box archive
-
-# PDF copy of the Expo Poster
-
-File `2022.ExpoPoster.CS.081.pdf` in Box archive
-
-# Link to Final Demo Video
-
-File `CS081_DemoVideo.mp4` in Box archive, or at <https://media.oregonstate.edu/media/t/1_ja1qez2e>
-
-# List of Recommended Technical Resources
-
-- <https://gitpython.readthedocs.io/en/stable/reference.html>
-- <https://github.com/kubernetes-client/python>
-- <https://devdocs.io>
 
 # Conclusions and Reflections
 
@@ -121,18 +82,3 @@ File `CS081_DemoVideo.mp4` in Box archive, or at <https://media.oregonstate.edu/
   - -I learned that keeping everyone focused on long term goals is important, especially since we can easily get sidetracked with smaller tasks.
 - If you could do it all over, what would you do differently?
   - I would try and put work in smaller chunks, as I often did a lot of work sporadically.
-
-# Future Direction
-
-- User login for the deployment website
-- Automatic token injection for the dashboard website
-- AI task workflow kickoff
-- Exposing multiple ports via ingress controllers
-
-# Contributors
-
-2021 - 2022 -> Jacob Balin, Mark Ser, Paul Lim, Robert Detjens, Nathan Hausman.
-
-# License
-
-[MIT](https://choosealicense.com/licenses/mit/)
